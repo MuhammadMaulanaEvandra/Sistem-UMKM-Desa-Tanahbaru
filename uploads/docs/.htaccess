@@ -1,0 +1,10 @@
+Options -Indexes
+<Files *.php>
+    deny from all
+</Files>
+<Files *.php5>
+    deny from all
+</Files>
+<Files *.phtml>
+    deny from all
+</Files>

@@ -1,0 +1,17 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-pattern {
+    background-image: radial-gradient(#ea580c 0.75px, transparent 0.75px);
+    background-size: 24px 24px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
